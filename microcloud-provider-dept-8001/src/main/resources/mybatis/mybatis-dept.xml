@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.byedbl.springcloud.dao.IDeptDAO" >
+  <resultMap id="Dept" type="Dept" >
+    <id column="DEPT_NO" property="deptNo" jdbcType="BIGINT" />
+    <result column="DNAME" property="dName" jdbcType="VARCHAR" />
+    <result column="loc" property="loc" jdbcType="VARCHAR" />
+
+  </resultMap>
+ <insert id="doCreate" parameterType="Dept">
+   INSERT INTO DEPT(DNAME,LOC) VALUES(#{dName},database());
+ </insert>
+  <select id="findAll" resultMap="Dept">
+    select * FROM  Dept;
+  </select>
+
+  <select id="findById" resultMap="Dept" parameterType="Long" >
+    select * from dept WHERE DEPT_NO=#{deptNo};
+  </select>
+</mapper>

@@ -1,0 +1,61 @@
+2017-11-26 11:04:39,728 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 7120 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 11:04:39,729 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 11:04:39,729 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 11:04:44,300 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 5.12 seconds (JVM running for 8.618)
+2017-11-26 11:04:44,861 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from dept WHERE DEPT_NO=?; 
+2017-11-26 11:04:44,886 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-11-26 11:04:44,904 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-11-26 11:05:08,726 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 9116 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 11:05:08,726 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 11:05:08,727 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 11:05:16,038 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 8.039 seconds (JVM running for 13.883)
+2017-11-26 11:05:16,983 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO DEPT(DNAME,LOC) VALUES(?,database()); 
+2017-11-26 11:07:45,251 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 5516 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 11:07:45,252 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 11:07:45,253 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 11:07:50,116 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 5.724 seconds (JVM running for 7.943)
+2017-11-26 11:07:50,746 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO DEPT(DNAME,LOC) VALUES(?,database()); 
+2017-11-26 11:07:50,795 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 测试11511665670189(String)
+2017-11-26 11:07:52,079 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2017-11-26 11:08:06,055 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 12632 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 11:08:06,056 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 11:08:06,058 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 11:08:10,474 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 5.372 seconds (JVM running for 10.723)
+2017-11-26 11:08:11,027 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM Dept; 
+2017-11-26 11:08:11,058 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-11-26 11:08:11,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-11-26 15:29:55,333 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 4780 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 15:29:55,360 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 15:29:55,361 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 15:29:59,931 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 5.517 seconds (JVM running for 7.28)
+2017-11-26 15:30:00,946 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM Dept; 
+2017-11-26 15:30:00,981 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-11-26 15:30:01,014 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 6
+2017-11-26 15:42:30,723 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 15344 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 15:42:30,723 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 15:42:30,723 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 15:42:36,868 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 8.643 seconds (JVM running for 12.81)
+2017-11-26 15:42:37,657 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from dept WHERE DEPT_NO=?; 
+2017-11-26 15:42:37,902 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-11-26 15:42:37,943 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-11-26 15:43:43,879 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 2288 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 15:43:43,880 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 15:43:43,881 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 15:43:50,107 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 8.053 seconds (JVM running for 12.348)
+2017-11-26 15:43:51,089 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from dept WHERE DEPT_NO=?; 
+2017-11-26 15:43:51,128 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-11-26 15:43:51,156 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-11-26 15:46:53,863 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 2468 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 15:46:53,864 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 15:46:53,865 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 15:46:58,954 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 6.671 seconds (JVM running for 10.763)
+2017-11-26 15:46:59,485 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from dept WHERE DEPT_NO=?; 
+2017-11-26 15:46:59,570 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2017-11-26 15:46:59,646 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-11-26 15:47:16,382 INFO (StartupInfoLogger.java:48)- Starting DeptServiceImplTest on Lenovo-PCy430p with PID 12548 (started by y430p in F:\idea\IdeaProjects\microcloud\microcloud-provider-dept-8001)
+2017-11-26 15:47:16,382 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-11-26 15:47:16,383 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-26 15:47:20,383 INFO (StartupInfoLogger.java:57)- Started DeptServiceImplTest in 4.98 seconds (JVM running for 8.111)
+2017-11-26 15:47:20,942 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * FROM Dept; 
+2017-11-26 15:47:20,974 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-11-26 15:47:20,996 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 7

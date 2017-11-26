@@ -1,0 +1,30 @@
+server:
+  port: 8001
+
+mybatis:
+  config-location: classpath:config/sqlMapConfig.xml
+  type-aliases-package: com.byedbl.springcloud.model
+  mapper-locations:
+  - classpath:mybatis/**/*.xml
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://127.0.0.1:3306/c2f?useUnicode=true&amp;characterEncoding=utf-8
+    username: root
+    password: 123456
+    filters : stat,wall,log4j
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: byedbl
+#    password: 123456
+#    role: USER
+#
+#  sessions: stateless #设置SESSION无状态，参考SessionCreationPolicy
