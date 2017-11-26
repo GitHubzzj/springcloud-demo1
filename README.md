@@ -4,5 +4,7 @@
 
 项目用到的技术主要有：Springboot+SpringCloud+Spring Security+mybatis
 
+如有疑问欢迎加QQ一起交流，2537646458
 欢迎下载查看，创建表后可直接运行调试。
+
 下载请随手点个赞哦。谢谢！
